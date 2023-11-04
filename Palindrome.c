@@ -13,10 +13,10 @@ int main() {
   }
   if(a==reverse)
   {
-      printf("Palindrome");
+      printf("True");
   }
   else
   {
-      printf("Not Palindrome");
+      printf("False");
   }
 }
