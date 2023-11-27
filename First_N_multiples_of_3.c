@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int i,n;
+    int n,i;
     scanf("%d",&n);
-    for(i=3;i<=(3*n);i++)
+    for(i=1;i<=(3*n);i++)
     {
         if(i%3==0)
         {
