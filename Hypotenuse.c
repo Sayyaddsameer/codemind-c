@@ -1,9 +1,14 @@
 #include<stdio.h>
 #include<math.h>
-int main()
+float hyp(float a,float b)
 {
-    double a,b,c;
-    scanf("%lf%lf",&a,&b);
-    c=sqrt(pow(a,2)+pow(b,2));
-    printf("%.2lf",c);
+   float c=sqrt(pow(a,2)+pow(b,2));
+   return c;
+}
+ int main()
+{
+    float a,b;
+    scanf("%f%f",&a,&b);
+    float res=hyp(a,b);
+    printf("%.2f",res);
 }
