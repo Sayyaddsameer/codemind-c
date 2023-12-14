@@ -1,9 +1,14 @@
 #include<stdio.h>
-int main() 
+float lp(float x, float y)
 {
-    int x,y;
-    scanf("%d%d",&x,&y);
-    int l=x-y;
-    float lp =(l*100.0)/x;
-    printf("%.2f",lp);
+    float l=x-y;
+    float p=(l/x)*100.0;
+    return p;
+}
+int main()
+{
+    float x,y;
+    scanf("%f%f",&x,&y);
+    float res=lp(x,y);
+    printf("%.2f",res);
 }
